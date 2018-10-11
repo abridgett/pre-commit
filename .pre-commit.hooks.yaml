@@ -1,0 +1,5 @@
+- id: debug
+  name: Debug
+  description: Displays what the pre-commit hook can see
+  entry: debug
+  language: script
