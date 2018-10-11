@@ -3,3 +3,10 @@
   description: Displays what the pre-commit hook can see
   entry: debug
   language: script
+
+- id: terraform_fmt
+  name: Terraform fmt
+  description: Checks terraform files are formatted correctly
+  pass_filenames: false
+  language: system
+  entry: terraform fmt -check
